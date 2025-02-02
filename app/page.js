@@ -7,7 +7,7 @@ import Card from "./components/card";
 
 // import { generateFlashCards } from "./actions";
 
-export default function Home() {
+export default function Landing() {
   return (
     <div>
       {/* <button onClick={() => generateFlashCards(10, "Revelation", null)}>Do Stuff</button> */}
@@ -23,7 +23,7 @@ export default function Home() {
             Transform Your Study Sessions with AI
           </h2>
           <p className="text-lg text-gray-600 mb-8">
-            EduMorph helps you create personalized, AI-powered study sets for any
+            EduLana helps you create personalized, AI-powered study sets for any
             topic, making learning efficient and engaging.
           </p>
           <PrimaryButton text={"Get Started"} />
